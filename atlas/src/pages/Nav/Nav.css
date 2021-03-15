@@ -1,0 +1,10 @@
+.navContainer {
+    width: 70%;
+    height: 100%;
+}
+
+.mainNav {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid red;
+}
