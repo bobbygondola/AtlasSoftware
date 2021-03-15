@@ -1,14 +1,12 @@
 import React from 'react';
-import './Nav.css'
+import './Nav.css';
+import { links } from './navLinks';
 
 const Navigation = () => {
     return (
         <div className="navContainer">
             <div className="mainNav">
-                <h3>Windows</h3>
-                <h3>Mac</h3>
-                <h3>Linux</h3>
-                <h3>OS</h3>
+                {links.map((item) => <ui key={item}>{item}</ui>)}
             </div>
         </div>
         
