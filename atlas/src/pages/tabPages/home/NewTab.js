@@ -10,12 +10,18 @@ const NewTab = () => {
             </div>
             <div className="newList">
                 {uploads.map((upload) => {
+                    console.log(upload.pfp)
                     return (
-                        <div className="uploadMap">
-                            <div className="upload"><p key={upload.title}>Name: <span style={{fontWeight: "bold"}}>{upload.title}</span></p></div>
-                            <div className="upload"><p>Compatability: <span style={{fontWeight: "bold"}}>{upload.combatability}</span></p></div>
-                            <div className="upload"><p>Type: <span style={{fontWeight: "bold"}}>{upload.type}</span></p></div>
-                            <div className="upload"><p>Walkthrough: <span style={{fontWeight: "bold"}}>{upload.walkthrough}</span></p></div>
+                        <div className="uploadMap" key={upload.id}>
+                            <div className="upload"><p >Name: <span className="uploadDetails">{upload.title}</span></p></div>
+                            <div className="upload"><p>Compatability: <span className="uploadDetails">{upload.combatability}</span></p></div>
+                            <div className="upload"><p>Type: <span className="uploadDetails">{upload.type}</span></p></div>
+                            <div className="upload"><p>Walkthrough: <span className="uploadDetails">{upload.walkthrough}</span></p></div>
+
+                            <div className="userSection">
+                                <div className="pfp">{upload.pfp ? <img src={upload.pfp.pfp.default} alt="profilepic"/> : null }</div>
+                                <div className="upload"><p><span className="uploadDetails">{upload.Creator}</span></p></div>
+                            </div>
                         </div>
                         )
                 })}
