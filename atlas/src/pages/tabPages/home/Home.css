@@ -17,7 +17,7 @@
 }
 
 .tag {
-    color: rgb(52, 52, 155);
+    color:#4183c4;
 }
 
 .getStarted {
@@ -50,6 +50,7 @@
     color: white;
     width: 40%;
 }
+
 
 .loginDiv .login:hover{
     cursor: pointer;

@@ -5,6 +5,7 @@ import { Route } from 'react-router-dom'
 import Navigation from '../pages/Nav/Navigation';
 import Header from '../pages/Header/Header';
 import Search from '../tools/search'
+import Footer from '../pages/Footer/Footer'
 //tabPages
 import HomePage from "../pages/tabPages/home/Home"
 import WindowsPage from '../pages/tabPages/win/Windows';
@@ -31,7 +32,8 @@ const App = () => {
       <Route path="/linux" component={LinuxPage}/>
       <Route path="/games" component={GamesPage}/>
       <Route path="/scripts" component={ScriptsPage}/>
-
+      
+      <Footer />
     </div>
   );
 }

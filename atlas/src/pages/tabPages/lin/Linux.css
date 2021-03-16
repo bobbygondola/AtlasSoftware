@@ -6,3 +6,17 @@
     flex-direction: column;
     justify-content: center;
 }
+
+.linNew{
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 60%;
+    text-align: center;
+}
+
+.scrNew{
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 60%;
+    text-align: center;
+}

@@ -6,3 +6,10 @@
     flex-direction: column;
     justify-content: center;
 }
+
+.gamNew {
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 60%;
+    text-align: center;
+}
