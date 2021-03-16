@@ -6,3 +6,10 @@
     flex-direction: column;
     justify-content: center;
 }
+
+.winNew{
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 60%;
+    text-align: center;
+}
