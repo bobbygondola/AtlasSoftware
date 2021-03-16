@@ -5,3 +5,21 @@
 #newUploads {
     text-decoration: underline;
 }
+
+/* .newList {
+    display: flex;
+    flex-direction: row;
+} */
+
+.uploadMap {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    margin-top: 10px;
+}
+
+.upload {
+    width: 200px;
+    /* border: 1px solid red; */
+    text-align: left;
+}
