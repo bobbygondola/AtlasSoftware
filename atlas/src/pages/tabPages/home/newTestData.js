@@ -1,5 +1,42 @@
+const pfp = require('../home/pfpimg/pfp.jpg');
+
 const uploads = [
-    {title: "Mouse Jiggler"}
+    {id: 1, title: "Mouse Jiggler", combatability: "WIN, MAC, LIN", type: "Python Script", walkthrough: "Here", pfp: {pfp}, Creator: "OctoMan1332"},
+    {id: 2,title: "Auto Login", combatability: "WIN, MAC", type: "Selenium Script", walkthrough: "Here", pfp: {pfp}, Creator: "OctoMan1332"},
+    {id: 3,title: "Payroll Program", combatability: "WIN, MAC", type: "Python Script", walkthrough: "Here", pfp: {pfp}, Creator: "OctoMan1332"},
+    {id: 4,title: "Time Sheet Auto", combatability: "WIN, MAC, LIN", type: "Selenium Script", walkthrough: "Here", pfp: {pfp}, Creator: "OctoMan1332"},
+    {id: 5,title: "Chat App", combatability: "WIN, MAC, LIN", type: "JavaScript App", walkthrough: "Here", pfp: {pfp}, Creator: "OctoMan1332"},
+    {id: 6,title: "Zoom", combatability: "WIN, MAC, LIN", type: "Program", walkthrough: "Here", pfp: {pfp}, Creator: "OctoMan1332"},
+    {id: 7,title: "Activity Tracker", combatability: "MAC, LIN", type: "Python Script", walkthrough: "Here", pfp: {pfp}, Creator: "OctoMan1332"},
+    {id: 8,title: "Web Scraper", combatability: "WIN, MAC, LIN", type: "Python Script", walkthrough: "Here", pfp: {pfp}, Creator: "OctoMan1332"},
+    {id: 9,title: "Selenium Library", combatability: "WIN, MAC, LIN", type: "Selenium Script Library", walkthrough: "Here", pfp: {pfp}, Creator: "OctoMan1332"},
+    {id: 10,title: "Java Auto", combatability: "WIN, LIN", type: "Selenium Script", walkthrough: "Here", pfp: {pfp}, Creator: "OctoMan1332"},
+    {id: 11,title: "API Library", combatability: "MAC, LIN", type: "Library", walkthrough: "Here", pfp: {pfp}, Creator: "OctoMan1332"},
+    {id: 12,title: "Inactivity Solution", combatability: "WIN, MAC, LIN", type: "Python Script", walkthrough: "Here", pfp: {pfp}, Creator: "OctoMan1332"},
+    {id: 13,title: "Mouse Jiggler", combatability: "WIN, MAC, LIN", type: "Python Script", walkthrough: "Here", pfp: {pfp}, Creator: "OctoMan1332"},
+    {id: 14,title: "Auto Login", combatability: "WIN, MAC, LIN", type: "Selenium Script", walkthrough: "Here", pfp: {pfp}, Creator: "OctoMan1332"},
+    {id: 15,title: "Payroll Program", combatability: "WIN, LIN", type: "Python Script", walkthrough: "Here", pfp: {pfp}, Creator: "OctoMan1332"},
+    {id: 16,title: "Time Sheet Auto", combatability: "WIN, MAC, LIN", type: "Selenium Script", walkthrough: "Here", pfp: {pfp}, Creator: "OctoMan1332"},
+    {id: 17,title: "Chat App", combatability: "WIN, MAC, LIN", type: "JavaScript App", walkthrough: "Here", pfp: {pfp}, Creator: "OctoMan1332"},
+    {id: 18,title: "Zoom", combatability: "WIN, MAC, LIN", type: "Program", walkthrough: "Here", pfp: {pfp}, Creator: "OctoMan1332"},
+    {id: 19,title: "Activity Tracker", combatability: "WIN, MAC, LIN", type: "Python Script", walkthrough: "Here", pfp: {pfp}, Creator: "OctoMan1332"},
+    {id: 20,title: "Web Scraper", combatability: "WIN, LIN", type: "Python Script", walkthrough: "Here", pfp: {pfp}, Creator: "OctoMan1332"},
+    {id: 21,title: "Selenium Library", combatability: "WIN, MAC, LIN", type: "Selenium Script Library", walkthrough: "Here", pfp: {pfp}, Creator: "OctoMan1332"},
+    {id: 22,title: "Java Auto", combatability: "WIN, MAC, LIN", type: "Selenium Script", walkthrough: "Here", pfp: {pfp}, Creator: "OctoMan1332"},
+    {id: 23,title: "API Library", combatability: "WIN, MAC, LIN", type: "Library", walkthrough: "Here", pfp: {pfp}, Creator: "OctoMan1332"},
+    {id: 24,title: "Inactivity Solution", combatability: "WIN, MAC, LIN", type: "Python Script", walkthrough: "Here", pfp: {pfp}, Creator: "OctoMan1332"},
+    {id: 25,title: "Mouse Jiggler", combatability: "WIN, LIN", type: "Python Script", walkthrough: "Here", pfp: {pfp}, Creator: "OctoMan1332"},
+    {id: 26,title: "Auto Login", combatability: "WIN, MAC, LIN", type: "Selenium Script", walkthrough: "Here", pfp: {pfp}, Creator: "OctoMan1332"},
+    {id: 27,title: "Payroll Program", combatability: "WIN, MAC, LIN", type: "Python Script", walkthrough: "Here", pfp: {pfp}, Creator: "OctoMan1332"},
+    {id: 28,title: "Time Sheet Auto", combatability: "MAC, LIN", type: "Selenium Script", walkthrough: "Here", pfp: {pfp}, Creator: "OctoMan1332"},
+    {id: 29,title: "Chat App", combatability: "WIN, MAC, LIN", type: "JavaScript App", walkthrough: "Here", pfp: {pfp}, Creator: "OctoMan1332"},
+    {id: 30,title: "Zoom", combatability: "WIN, MAC, LIN", type: "Program", walkthrough: "Here", pfp: {pfp}, Creator: "OctoMan1332"},
+    {id: 31,title: "Activity Tracker", combatability: "WIN, MAC, LIN", type: "Python Script", walkthrough: "Here", pfp: {pfp}, Creator: "OctoMan1332"},
+    {id: 32,title: "Web Scraper", combatability: "MAC, LIN", type: "Python Script", walkthrough: "Here", pfp: {pfp}, Creator: "OctoMan1332"},
+    {id: 33,title: "Selenium Library", combatability: "WIN, MAC, LIN", type: "Selenium Script Library", pfp: {pfp}, walkthrough: "Here", Creator: "OctoMan1332"},
+    {id: 34,title: "Java Auto", combatability: "WIN, MAC, LIN", type: "Selenium Script", walkthrough: "Here", pfp: {pfp}, Creator: "OctoMan1332"},
+    {id: 35,title: "API Library", combatability: "WIN, MAC, LIN", type: "Library", walkthrough: "Here", pfp: {pfp}, Creator: "OctoMan1332"},
+    {id: 36,title: "Inactivity Solution", combatability: "WIN, MAC, LIN", type: "Python Script", walkthrough: "Here", pfp: {pfp}, Creator: "OctoMan1332"},
 ]
 //add alot more fake data
 

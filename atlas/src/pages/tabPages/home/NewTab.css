@@ -1,7 +1,54 @@
 .NewTabContainer{
     font-family: 'Dosis', sans-serif;
+    background-color: rgb(235, 235, 235);
+    padding-top: 20px;
 }
 
 #newUploads {
-    text-decoration: underline;
+    padding-bottom: 20px;
+}
+
+.uploadDetails {
+    font-weight: bold;
+    color: rgb(52, 52, 155);
+}
+
+.uploadMap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    margin-top: 10px;
+    padding: 5px 0px 5px 0px;
+}
+
+.upload {
+    margin-left: 25px;
+    width: 200px;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.upload:hover {
+    cursor: pointer;
+}
+
+.upload span:hover{
+    color: blue;
+}
+
+.userSection {
+    align-items: center;
+    display: flex;
+    text-align: end;
+    margin-right: -40px;
+}
+.pfp {
+    height: 35px;
+}
+
+.pfp img{
+    height: 100%;
+    border-radius: 25px;
+    margin-right: -20px;
 }
