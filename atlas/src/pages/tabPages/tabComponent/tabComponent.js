@@ -1,5 +1,6 @@
 import React from 'react';
 //styles for components
+import "./tabStyles.css";
 import "../win/Windows.css";
 import "../mac/Mac.css";
 import "../lin/Linux.css";
@@ -19,7 +20,7 @@ const TabComponent = (props) => {
             <div className="HeadContent">
                     <div className="help">
                         <h3>Helpful Guides</h3>
-                        <p>We require contributers to submit in-depth walkthroughs to make any software, SIMPLE!</p>
+                        <p>We require contributers to submit in-depth walkthroughs to make any software, <span style={{fontWeight: "bold"}}>SIMPLE!</span></p>
                     </div>
                     <div className="safe">
                         <h3>Safe</h3>

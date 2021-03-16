@@ -1,0 +1,62 @@
+.IntroHome{
+    font-family: 'Dosis', sans-serif;
+    margin: 0 auto;
+    padding: 10px 0px 10px 0px;
+    width: 60%;
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgba(87, 87, 255, 0.397)
+}
+
+.IntroHome h2 {
+    font-size: xx-large;
+}
+
+.tag {
+    color: rgb(76, 76, 230);
+}
+
+.getStarted {
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 15px;
+    padding-top: 15px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.ready {
+    padding: 5px 10px 5px 10px;
+    text-align: end;
+    width: 50%;
+}
+
+.loginDiv{
+    width: 50%;
+}
+
+.login{
+    margin-left: 5px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: rgb(85, 85, 255);
+    color: white;
+    width: 33%;
+}
+
+.loginDiv .login:hover{
+    cursor: pointer;
+    color: black;
+    transition: .2s;
+}
+
+.homeNew {
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 60%;
+    text-align: center;
+}
+

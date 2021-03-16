@@ -1,0 +1,40 @@
+.tabTitle {
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+    background-color: rgb(19, 19, 59);
+    color: white;
+}
+
+.disclosureDiv {
+    margin-top: 7px;
+    padding-top: 10px;
+    text-align: center;
+    height: fit-content;
+}
+
+.disclosureDiv h4{
+    margin-top: -10px;
+    padding-bottom: 10px;
+}
+
+.HeadContent{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.help, .safe {
+    background-color: rgb(235, 232, 232);
+    padding: 10px 0px 10px 0px;
+    width: 50%;
+    text-align: center;
+}
+
+.help h3 {
+    color: rgb(0, 0, 0);
+}
+
+.safe h3 {
+    color: rgb(0, 0, 0);
+}

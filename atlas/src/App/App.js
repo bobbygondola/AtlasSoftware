@@ -6,11 +6,12 @@ import Navigation from '../pages/Nav/Navigation';
 import Header from '../pages/Header/Header';
 import Search from '../tools/search'
 //tabPages
+import HomePage from "../pages/tabPages/home/Home"
 import WindowsPage from '../pages/tabPages/win/Windows';
 import MacPage from '../pages/tabPages/mac/Mac';
 import LinuxPage from '../pages/tabPages/lin/Linux';
 import GamesPage from '../pages/tabPages/gam/Games';
-import ScriptsPage from "../pages/tabPages/scr/Scripts"
+import ScriptsPage from "../pages/tabPages/scr/Scripts";
 
 //to do,
 // style tab components
@@ -23,6 +24,7 @@ const App = () => {
         <Navigation />
       </div>
       <Search />
+      <Route exact path="/" component={HomePage}/>
 
       <Route path="/windows" component={WindowsPage}/>
       <Route path="/mac" component={MacPage}/>
