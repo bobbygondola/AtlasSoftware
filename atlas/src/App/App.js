@@ -10,10 +10,10 @@ import WindowsPage from '../pages/tabPages/win/Windows';
 import MacPage from '../pages/tabPages/mac/Mac';
 import LinuxPage from '../pages/tabPages/lin/Linux';
 import GamesPage from '../pages/tabPages/gam/Games';
+import ScriptsPage from "../pages/tabPages/scr/Scripts"
 
 //to do,
 // style tab components
-// add hrefs in tabs.
 
 const App = () => {
   return (
@@ -26,8 +26,9 @@ const App = () => {
 
       <Route path="/windows" component={WindowsPage}/>
       <Route path="/mac" component={MacPage}/>
-      <Route path="linux" component={LinuxPage}/>
+      <Route path="/linux" component={LinuxPage}/>
       <Route path="/games" component={GamesPage}/>
+      <Route path="/scripts" component={ScriptsPage}/>
 
     </div>
   );

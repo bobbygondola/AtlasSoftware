@@ -1,10 +1,16 @@
-import React from 'react'
+import React from 'react';
+// import './Windows.css';
+
+import TabComponent from '../tabComponent/tabComponent';
+import {useLocation} from 'react-router-dom';
 
 const Windows = () => {
+    const location = useLocation();
+    const pathName = location.pathname.replace("/", "").replace(/^\w/, c => c.toUpperCase())
+
+    console.log(pathName)
     return (
-        <div className="windowsContainer">
-            <h2>Windows</h2>
-        </div>
+        <TabComponent tabName={pathName} />
     )
 }
 

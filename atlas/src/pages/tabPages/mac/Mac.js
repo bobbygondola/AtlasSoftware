@@ -1,10 +1,15 @@
-import React from 'react'
+import React from 'react';
+// import "./Mac.css";
+
+import TabComponent from '../tabComponent/tabComponent';
+import {useLocation} from 'react-router-dom';
 
 const Mac = () => {
+    const location = useLocation();
+    const pathName = location.pathname.replace("/", "").replace(/^\w/, c => c.toUpperCase())
+
     return (
-        <div className="macContainer">
-            <h2>Mac</h2>
-        </div>
+        <TabComponent tabName={pathName} />
     )
 }
 

@@ -1,17 +1,15 @@
-import React from 'react';
-import "./Linux.css";
+import React from 'react'
+import "./Scripts.css"
 
 import TabComponent from '../tabComponent/tabComponent';
 import {useLocation} from 'react-router-dom';
 
-const Linux = () => {
-
+const Scripts = () => {
     const location = useLocation();
     const pathName = location.pathname.replace("/", "").replace(/^\w/, c => c.toUpperCase())
-
     return (
         <TabComponent tabName={pathName} />
     )
 }
 
-export default Linux
+export default Scripts

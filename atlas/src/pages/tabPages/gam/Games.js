@@ -1,10 +1,15 @@
-import React from 'react'
+import React from 'react';
+import "./Games.css";
+
+import TabComponent from '../tabComponent/tabComponent';
+import {useLocation} from 'react-router-dom';
 
 const Games = () => {
+    const location = useLocation();
+    const pathName = location.pathname.replace("/", "").replace(/^\w/, c => c.toUpperCase())
+
     return (
-        <div className="gamesContainer">
-            <h2>Games</h2>
-        </div>
+        <TabComponent tabName={pathName} />
     )
 }
 
