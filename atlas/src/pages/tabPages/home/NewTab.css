@@ -10,7 +10,7 @@
 
 .uploadDetails {
     font-weight: bold;
-    color: rgb(52, 52, 155);
+    color:#4183c4;
 }
 
 .uploadMap {
@@ -34,7 +34,7 @@
 }
 
 .upload span:hover{
-    color: blue;
+    color:#75b4f3;
 }
 
 .userSection {

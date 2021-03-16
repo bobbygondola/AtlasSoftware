@@ -12,7 +12,7 @@ const Home = () => {
             </div>
             <div className="getStarted">
                 <div className="ready"><h3>Ready to start selling?</h3></div>
-                <div className="loginDiv"><div className="login">Login</div></div>
+                <div className="loginDiv"><div className="login"><span>login</span></div></div>
             </div>
             <div className="homeNew">
                 <NewTab />
