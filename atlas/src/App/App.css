@@ -1,5 +1,9 @@
+.App {
+  height: 100vh;
+}
+
 .headApp{
-  border: 1px solid blue;
+  border: 2px solid black;
   width: 100%;
   display: flex;
 }

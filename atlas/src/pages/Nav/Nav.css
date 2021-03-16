@@ -6,5 +6,7 @@
 .mainNav {
     display: flex;
     justify-content: space-evenly;
-    border: 1px solid red;
+    align-items: center;
+    padding-top: 8px;
+    /* border: 1px solid red; */
 }

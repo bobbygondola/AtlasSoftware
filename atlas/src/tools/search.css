@@ -1,0 +1,17 @@
+.searchComponent {
+    padding-top: 15px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 60%;
+}
+
+.form {
+    width: 100%;
+    align-items: center;
+}
+
+.input{
+    color: red;
+}
