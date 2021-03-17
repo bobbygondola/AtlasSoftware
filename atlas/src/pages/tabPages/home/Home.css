@@ -3,21 +3,31 @@
 }
 
 .IntroHome{
-    font-family: 'Dosis', sans-serif;
     margin: 0 auto;
     padding: 10px 0px 10px 0px;
     width: 60%;
     margin-top: 50px;
     text-align: center;
-    background-color: rgba(169, 169, 255, 0.397)
+    color: rgb(255, 255, 255);
+    background: #011B40;
+    background: -webkit-linear-gradient(left, #011B40, #014597);
+    background: -moz-linear-gradient(left, #011B40, #014597);
+    background: linear-gradient(to right, #011B40, #014597);
+
 }
 
-.IntroHome h2 {
-    font-size: xx-large;
+.IntroHome h2{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.2rem;
+}
+
+.IntroHome h3{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.2rem;
 }
 
 .tag {
-    color:#4183c4;
+    color:#73b9ff;
 }
 
 .getStarted {
@@ -46,16 +56,16 @@
     border-radius: 10px;
     font-family: 'Orbitron', sans-serif;
     font-weight: bold;
-    background-color: rgb(85, 85, 255);
-    color: white;
+    background: #1d4072;
+    color: rgb(238, 238, 238);
     width: 40%;
 }
 
 
 .loginDiv .login:hover{
     cursor: pointer;
-    color: black;
-    background-color: rgb(116, 116, 255);
+    color: rgb(255, 255, 255);
+    background: #375886;
     transition: .2s;
 }
 
