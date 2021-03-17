@@ -13,7 +13,7 @@ const Footer = () => {
             <div className="footerInfo">
 
                 <div className="missionFooter">
-                    <h3>Mission</h3>
+                    <h3>Our Mission</h3>
                     <p>Atlas Software aims to provide the world with easily accesible software and to support developers and engineers with original, helpful and amazing tools!</p>
                 </div>
 
